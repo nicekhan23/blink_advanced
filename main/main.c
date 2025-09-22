@@ -21,5 +21,5 @@ static const char *TAG = "main";
 
 void app_main(void)
 {
-    configAssert(blink_init());
+    configASSERT(blink_init());
 }

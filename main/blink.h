@@ -7,6 +7,5 @@
 
 BaseType_t blink_init(void);
 BaseType_t blink_deinit(void);
-void blink_task(void *pvParameter);
 
 #endif // BLINK_H

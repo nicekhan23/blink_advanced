@@ -1,7 +1,9 @@
 #ifndef CONSOLE_H
 #define CONSOLE_H
 
-void console_init(void);
-void console_print(const char *message);
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+
+BaseType_t console_init(void);
 
 #endif // CONSOLE_H
