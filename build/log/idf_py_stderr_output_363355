@@ -1,0 +1,11 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/darkhan/.espressif/python_env/idf5.5_py3.11_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=0 /home/darkhan/workspace/blink_advanced
+CMake Error at /home/darkhan/esp/esp-idf/tools/cmake/build.cmake:328 (message):
+  Failed to resolve component 'esp_console' required by component 'main':
+  unknown name.
+Call Stack (most recent call first):
+  /home/darkhan/esp/esp-idf/tools/cmake/build.cmake:377 (__build_resolve_and_add_req)
+  /home/darkhan/esp/esp-idf/tools/cmake/build.cmake:685 (__build_expand_requirements)
+  /home/darkhan/esp/esp-idf/tools/cmake/project.cmake:740 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+
